@@ -2,7 +2,7 @@ import Slider from "./Components/Slider/Slider";
 import Header from "./Components/Header";
 import ContactUs from "./Components/ContactUs/Contactus";
 import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 
 function App() {
   const [form, setForm] = useState();
