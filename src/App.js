@@ -1,8 +1,8 @@
-import classes from "./App.module.css";
+import Slider from "./Components/Slider/Slider";
 import Header from "./Components/Header";
 import ContactUs from "./Components/ContactUs/Contactus";
 import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 function App() {
   const [form, setForm] = useState();
@@ -15,8 +15,9 @@ function App() {
   });
   return (
     <React.Fragment>
-      <Header className={classes.nav} />
-      <div className={classes.over}>{form}</div>
+      <Header />
+      <Slider />
+      <div>{form}</div>
     </React.Fragment>
   );
 }
