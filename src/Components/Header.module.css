@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  position: static;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(205, 199, 211);
+}
+.nav p {
+  margin-top: 2vh;
+  font-size: 4vh;
+  margin-left: 2vh;
+}
+.nav div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav span {
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-size: 3.2vh;
+}
